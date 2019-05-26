@@ -11,6 +11,19 @@
 Основы работы с Git
 Система контроля версий 00:40
 Устанавливаем и настраиваем Git 02:13
+***
+// инициация
+git init
+echo >> README.md
+git config --local user.name "J"
+git config --local user.mail h0z936lg@mail.ru
+
+// состояние
+git
+
+//
+git add -A
+
 Состояния файлов в Git 05:14
 Работаем с Git 08:31
 Связываем репозиторий с GitHub 11:22
