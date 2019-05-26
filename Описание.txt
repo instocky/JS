@@ -24,6 +24,8 @@ git
 //
 git add -A
 
+// красивый вывод лога
+git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 Состояния файлов в Git 05:14
 Работаем с Git 08:31
 Связываем репозиторий с GitHub 11:22
